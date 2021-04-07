@@ -7,8 +7,8 @@ const createGrid = () => {
       fillGaps: true
     }})
 
-  const grid = document.querySelector('.grid');
-  gsap.to(grid, {opacity: 1, duration: .250})
+  const gridElement = document.querySelector('.grid');
+  window.grid.on('layoutEnd', () => gsap.to(gridElement, {opacity: 1, duration: .250}))
 };
 
 const destroyGrid = () => {

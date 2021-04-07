@@ -23,9 +23,6 @@ class Fade extends Highway.Transition {
 class CustomRenderer
   extends Highway.Renderer {
 
-  onEnter() {
-  }
-
   onLeave() {
     destroyGrid();
   }
