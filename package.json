@@ -9,7 +9,8 @@
     "custom-build": "webpack --config webpack.custom-prod.js"
   },
   "keywords": [
-    "verstka"
+    "krooshkin",
+    "gallerie"
   ],
   "author": "pavelrodionoff",
   "license": "ISC",
